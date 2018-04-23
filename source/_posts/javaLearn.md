@@ -2,6 +2,7 @@
 title: java学习，记录一些零碎的知识点~
 date: 2018-04-19 08:16:39
 tags: java
+categories: Java
 ---
 
 # 命名规范
