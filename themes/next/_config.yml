@@ -27,10 +27,10 @@ override: false
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: /images/sheild.ico #/images/favicon-16x16-next.png
+  small: /images/sheild.ico#/images/favicon-16x16-next.png
   medium: /images/sheild.ico #/images/favicon-32x32-next.png
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  apple_touch_icon: /images/sheild.ico #/images/apple-touch-icon-next.png
+  safari_pinned_tab: /images/sheild.ico #/images/logo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 # Set default keywords (Use a comma to separate)
@@ -92,10 +92,10 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  #about: /about/ || user
+  about: /about || user-secret
   #tags: /tags/ || tags
-  tags: /tags
-  categories: /categories
+  tags: /tags || tags
+  categories: /categories || sitemap
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -104,6 +104,8 @@ menu:
 # Enable/Disable menu icons.
 menu_icons:
   enable: true
+  
+  aboutme: 
 
 
 # ---------------------------------------------------------------
@@ -395,7 +397,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC8zNTk4MS8xMjUxNw==
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
